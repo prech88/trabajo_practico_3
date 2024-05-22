@@ -6,13 +6,53 @@
 	</head>
 	<body>
 		<header>
-			<h1>Trabajo Practico N°3</h1>
+			<h1>Registro de alumno</h1>
 		</header>
-		<main>
-			<form>
-				
-			</form>
-		</main>
+		<form action="#" method="post">
+			<label for="dni">DNI</label>
+			<input type="number" id="dni" name="dni" required><br>
+			<label for="nombres">Nombres</label>
+			<input type="text" id="nombres" name="nombres" required><br>
+			<label for="apellidos">Apellidos</label>
+			<input type="text" id="apellidos" name="apellidos" required><br>
+			<label for="fechaNacimiento">Fecha de nacimiento</label>
+			<input type="date" id="fechaNacimiento" name="fechaNacimiento" required><br>
+			<label for="genero">Genero</label><br>
+			<label for="masculino">Masculino</label>
+			<input type="radio" id="generoMasculino" name="genero" value="M"><br>
+			<label for="femenino">Femenino</label>
+			<input type="radio" id="generoFemenino" name="genero" value="F"><br>
+			<label for="email">Correo electronico</label>
+			<input type="email" id="email" name="email" required><br>
+			<label for="domicilio">Domicilio</label>
+			<input type="text" id="domicilio" name="domicilio" required><br>
+			<label for="provincia">Provincia</label>
+			<select id="provincia" name="provincia" required>
+				<option value="JUJUY">Jujuy</option>
+				<option value="SALTA">Salta</option>
+				<option value="TUCUMAN">Tucuman</option>
+				<option value="LA_RIOJA">La Rioja</option>
+				<option value="CATAMARCA">Catamarca</option>
+			</select><br>
+			<label for="celular">Telefono celular</label>
+			<input type="number" id="celular" name="celular"><br>
+			<label for="categorias">Categorias de Interes</label><br>
+			<label for="cursos">Cursos</label>
+			<input type="checkbox" id="cursos" name="cursos">
+			<label for="postgrado">Postgrado</label>
+			<input type="checkbox" id="postgrado" name="postgrado">
+			<label for="eventos">Eventos</label>
+			<input type="checkbox" id="eventos" name="eventos"><br>
+			<label for="sugerencias">Sugerencias para la Empresa</label><br>
+			<textarea id="sugerencias" name="sugerencias" rows="5" cols="20"></textarea><br>
+			<label for="password">Password</label>
+			<input type="password" id="password" name="password" required><br>
+			<label for="terminosYCondiciones">Acepto los términos y condiciones</label>
+			<input type="checkbox" id="terminosYCondiciones" name="terminosYCondiciones" required><br>
+			<label for="informacionRelativa">Acepto recibir información relativa a la empresa</label>
+			<input type="checkbox" id="informacionRelativa" name="informacionRelativa"><br><br>
+			<button type="submit">Enviar</button>
+		</form>
 		<aside>
 			<ul>
 				<li><a href="https://www.unju.edu.ar/">Pagina principal de la UNJU</a></li>
