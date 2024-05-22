@@ -8,5 +8,40 @@ body{
 	background-color: #003366;
     color: #ffffff;
     text-align: center;
-    padding: 20;
+    padding: 20px;
+}
+.menu{
+	background-color: #002244;
+	color: #ffffff;
+	padding: 10px;
+	justify-content: center;
+}
+.enlace{
+	color: aquamarine;
+}
+.principal{
+	background-color: cornflowerblue;
+	color: black;
+	text-align: left;
+	padding: 20px;
+}
+.seccion1{
+	font-size: large;
+	color: #ffffff;
+	text-align: center;
+}
+.seccion2{
+	text-decoration-line: underline;
+}
+.seccion3{
+	color: aliceblue;
+}
+.tabla{
+	background-color: #003366;
+}
+.barraLateral{
+	text-align: center;
+}
+#pieDePagina{
+	text-align: center;
 }
